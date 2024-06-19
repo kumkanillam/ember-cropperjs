@@ -119,7 +119,7 @@ export default Component.extend({
 
         _cropper.destroy();
 
-        const opts = Object.Object.assign({}, options);
+        const opts = Object.assign({}, options);
         const source = get(this, 'source');
         const image = document.getElementById(`image-cropper-${get(this, 'elementId')}`);
         const newCropper = new this._Cropper(image, opts)
